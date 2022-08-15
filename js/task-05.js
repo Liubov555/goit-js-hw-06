@@ -8,7 +8,7 @@ function onNameOutput(event) {
 
     outputEl.textContent = event.currentTarget.value;
 
-    if (event.currentTarget.value.value = "") {
+    if (event.currentTarget.value === "") {
         return outputEl.textContent = "Anonymous";
     }
 }
